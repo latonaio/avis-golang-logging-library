@@ -1,22 +1,20 @@
-[
-    {
-        "cursor":"/Users/xxx/test/test.go#L39",
-        "level":"DEBUG",
-        "message":"debug",
-        "params":["nested","world"],
-        "time":"2021-11-05T18:33:49.496445+09:00"},
-    {
-        "cursor":"/Users/xxx/test/test.go#L36",
-        "level":"DEBUG",
-        "message":"test 111",
-        "time":"2021-11-05T18:33:49.496388+09:00"},
-
-    {
-        "cursor":"/Users/xxx/test/test.go#L40",
-        "is":"world",
-        "level":"DEBUG",
-        "message":"hello",
-        "test":100,
-        "time":"2021-11-05T18:33:49.496519+09:00"
-    }
-]
+{
+    "category":"product-master",
+    "cursor":"/Users/kyotatashiro/go/src/sap-api-integrations-product-master-reads-rmq-kube/SAP_API_Caller/caller.go:105",
+    "function":"sap-api-integrations-product-master-reads-rmq-kube/SAP_API_Caller.(*SAPAPICaller).Product",
+    "level":"INFO",
+    "message":{
+       "Material":"D20_EPDM_SMRT_S",
+       "Product_desc":"https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('D20_EPDM_SMRT_S')/to_Description",
+       "BaseUnit":"PC",
+       "ValidityStartDate":"",
+       "ProductGroup":"L002",
+       "Division":"00",
+       "GrossWeight":"0.500",
+       "WeightUnit":"KG",
+       "SizeOrDimensionText":"",
+       "ProductStandardID":""
+    },
+    "time":"2021-12-16T15:44:25.311146+09:00"
+ }
+ 
